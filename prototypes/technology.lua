@@ -16,9 +16,9 @@ data:extend
         },
         unit =
         {
-          count = 100,
+          count = 50,
           ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}},
-          time = 30
+          time = 15
         },
         order = "g-k-a"
     }
