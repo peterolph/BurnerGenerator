@@ -20,6 +20,6 @@ data:extend
           ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}},
           time = 15
         },
-        order = "g-k-a"
+        order = "g-k-a",
     }
 }

@@ -4,14 +4,14 @@ data:extend
     {
         type = "recipe",
         name = "burner-generator-equipment",
-        enabled = "false",
+        enabled = false,
         energy_required = 10,
         ingredients =
         {
-            {"steam-engine", 1},
-            {"advanced-circuit", 10},
-            {"steel-plate", 10}
+            {type="item", name="steam-engine", amount=1},
+            {type="item", name="advanced-circuit", amount=10},
+            {type="item", name="steel-plate", amount=10}
         },
-        result = "burner-generator-equipment"
+        results = {{type="item", name="burner-generator-equipment", amount=1}},
     }
 }
